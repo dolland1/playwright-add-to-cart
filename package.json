@@ -1,0 +1,25 @@
+{
+  "name": "playwright-add-to-cart",
+  "version": "1.0.0",
+  "description": "adding items to cart",
+  "main": "index.js",
+  "scripts": {
+    "run-ui": "playwright test --ui",
+    "run-headless": "playwright test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dolland1/playwright-add-to-cart.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dolland1/playwright-add-to-cart/issues"
+  },
+  "homepage": "https://github.com/dolland1/playwright-add-to-cart#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.51.0",
+    "@types/node": "^22.13.10"
+  }
+}
